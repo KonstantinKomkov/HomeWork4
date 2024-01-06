@@ -7,43 +7,44 @@ int main (void)
 	printf("Введите целое число от 1 до 12 через пробел\n");
 	int a;
 	scanf("%d", &a);
+  printf("Данные на входе: %d\n", a);
   switch (a)
   {
     case 1: 
-      printf("January\n");
+      printf("Данные на выходе: Winter (January)\n");
       break;
     case 2: 
-      printf("February\n");
+      printf("Данные на выходе: Winter (February)\n");
       break;
     case 3: 
-      printf("March\n");
+      printf("Данные на выходе: Spring (March)\n");
       break;
     case 4: 
-      printf("April\n");
+      printf("Данные на выходе: Spring (April)\n");
       break;    
     case 5: 
-      printf("May\n");
+      printf("Данные на выходе: Spring (May)\n");
       break;
     case 6: 
-      printf("June\n");
+      printf("Данные на выходе: Summer (June)\n");
       break;
     case 7: 
-      printf("July\n");
+      printf("Данные на выходе: Summer (Jule)\n");
       break;
     case 8: 
-      printf("August\n");
+      printf("Данные на выходе: Summer (August)\n");
       break;
     case 9: 
-      printf("September\n");
+      printf("Данные на выходе: Autumn (September)\n");
       break;  
     case 10: 
-      printf("October\n");
+      printf("Данные на выходе: Autumn (October)\n");
       break;
     case 11: 
-      printf("November\n");
+      printf("Данные на выходе: Autumn (November)\n");
       break;
     case 12: 
-      printf("December\n");
+      printf("Данные на выходе: Winter (December)\n");
       break;            
   } 
 }
