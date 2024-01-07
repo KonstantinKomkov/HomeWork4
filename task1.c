@@ -3,6 +3,7 @@
 
 int main (void)
 {
+  printf(setlocale(LC_ALL, "Russian"));
 	setlocale(LC_ALL,"ru_RU.UTF-8");
 	printf("Введите два целых числа через пробел\n");
 	int a, b;
